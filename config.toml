@@ -1,7 +1,7 @@
 baseURL = "https://gastonrosso.com/"
 languageCode = "en"                                      # website language
 defaultContentLanguage = "en"                            # [en, zh, ...] determines which i18n file to use
-title = "Gaston Fernando Rosso"                          # website title
+title = "Gaston Rosso"                                   # website title
 theme = "LoveIt"                                         # theme
 enableGitInfo = false                                    # whether to use git commit log to generate lastmod record
 hasCJKLanguage = false                                   # whether to include chinese/japanese/korean
@@ -22,7 +22,7 @@ pygmentsCodefencesGuessSyntax = true
 staticDir = ["static", "../assets/others"]               # static directories
 
 [author]                                              #### Author Info
-  name = "Gaston Fernando Rosso"
+  name = "Gaston Rosso"
 
 [sitemap]                                             #### Sitemap Info
   changefreq = "weekly"
@@ -32,30 +32,30 @@ staticDir = ["static", "../assets/others"]               # static directories
 [Permalinks]                                          #### Permalinks Info (https://gohugo.io/content-management/urls/#permalinks)
   posts = ":year/:month/:filename"
 
-[menu]                                                #### Menu Info
-  [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "posts"
-    weight = 1
-
-  [[menu.main]]
-    identifier = "tags"
-    name = "Tags"
-    url = "tags"
-    weight = 2
-
-  [[menu.main]]
-    identifier = "categories"
-    name = "Categories"
-    url = "categories"
-    weight = 3
-
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "about"
-    weight = 4
+#[menu]                                                #### Menu Info
+#  [[menu.main]]
+#    identifier = "posts"
+#    name = "Posts"
+#    url = "posts"
+#    weight = 1
+#
+#  [[menu.main]]
+#    identifier = "tags"
+#    name = "Tags"
+#    url = "tags"
+#    weight = 2
+#
+#  [[menu.main]]
+#    identifier = "categories"
+#    name = "Categories"
+#    url = "categories"
+#    weight = 3
+#
+#  [[menu.main]]
+#    identifier = "about"
+#    name = "About"
+#    url = "about"
+#    weight = 4
 
 #  [[menu.main]]
 #    identifier = "zh"
